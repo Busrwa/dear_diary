@@ -1,0 +1,32 @@
+# Bağımlılıklar
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Yerel native klasörler (prebuild ile üretilir)
+/android
+/ios
+
+# Anahtarlar ve gizli dosyalar
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.env
+.env*.local
+
+# Loglar ve sistem dosyaları
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+Thumbs.db
+
+# Metro
+.metro-health-check*
